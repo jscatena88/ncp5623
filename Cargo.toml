@@ -3,7 +3,7 @@ name = "ncp5623"
 description = "Simple driver for the ON Semiconductor NCP5623 I2C RGB LED driver"
 authors = ["Jason Scatena <jason.scatena@gmail.com>"]
 repository = "https://github.com/jscatena88/ncp5623"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 categories = [
     "embedded",
