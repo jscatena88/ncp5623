@@ -1,4 +1,6 @@
 #![no_std]
+//! No-std rust driver for the ON Semiconductor RGB LED driver
+//! Built on the Embbedded HAl I2C Write trait
 
 use derive_new::new;
 use embedded_hal::blocking::i2c::Write;
