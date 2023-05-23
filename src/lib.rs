@@ -28,12 +28,12 @@ impl From<Address> for u8 {
 
 /// Error type
 #[derive(Debug, PartialEq, Eq)]
-pub enum Error<T: PartialEq> {
+pub enum Error<T> {
     InvalidValue,
     WriteError(T),
 }
 
-impl<T: PartialEq> From<T> for Error<T> {
+impl<T> From<T> for Error<T> {
     fn from(value: T) -> Self {
         Self::WriteError(value)
     }
