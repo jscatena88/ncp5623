@@ -1,0 +1,20 @@
+[package]
+name = "ncp5623"
+description = "Simple driver for the ON Semiconductor NCP5623 I2C RGB LED driver"
+version = "0.1.0"
+edition = "2021"
+categories = [
+    "embedded",
+    "hardware-support",
+    "no-std",
+]
+keywords = [
+    "embedded-hal-driver",
+    "ncp5623",
+]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+derive-new = {version = "0.5.9", default-features = false}
+embedded-hal = "0.2.7"
