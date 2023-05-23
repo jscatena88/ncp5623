@@ -65,7 +65,7 @@ pub struct NCP5623<I> {
 impl<I> NCP5623<I>
 where
     I: Write,
-    <I as Write>::Error: core::fmt::Debug + PartialEq,
+    <I as Write>::Error: core::fmt::Debug,
 {
     pub fn new_default_address(i2c: I) -> Self {
         Self::new(i2c, Address::Default)
