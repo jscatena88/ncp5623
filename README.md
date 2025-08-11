@@ -3,6 +3,6 @@
 # ncp5623
 
 No-std rust driver for the ON Semiconductor RGB LED driver
-Built on the Embbedded HAl I2C Write trait
+Built on the Embedded HAl I2C trait
 
 License: MIT
